@@ -22,3 +22,13 @@ const hobbies = ['Sports', 'Cooking'];
 
 const copiedArray = [...hobbies];
 ```
+
+### Rest operator [When you use thie syntax to merge items into an array]
+
+```javascript
+const toArray = (...args) => {
+  return args;
+};
+
+console.log(toArray(1, 2, 3, 4));
+```
